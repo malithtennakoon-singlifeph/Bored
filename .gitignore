@@ -6,6 +6,8 @@
 #
 android/app/my-upload-key.keystore
 
+android/gradle.properties
+
 # Xcode
 #
 build/
