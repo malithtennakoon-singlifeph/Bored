@@ -11,6 +11,7 @@ import GuessAge from '../Screens/GuessAge';
 import GuessGender from '../Screens/GuessGender';
 import IPInfo from '../Screens/IPInfo';
 import DogPics from '../Screens/DogPics';
+import AboutMe from '../Screens/AboutMe';
 
 const Drawer = createDrawerNavigator();
 
@@ -33,6 +34,7 @@ export default function App() {
         <Drawer.Screen name="GuessGender" component={GuessGender} options= {{title:'Guess My Gender'}}/>
         <Drawer.Screen name="IPInfo" component={IPInfo} options= {{title:'IP Information'}}/>
         <Drawer.Screen name="DogPics" component={DogPics} options= {{title:'Dog Picture'}}/>
+        <Drawer.Screen name="AboutMe" component={AboutMe} options= {{title:'About Me'}}/>
     </Drawer.Navigator>
   )
 }
